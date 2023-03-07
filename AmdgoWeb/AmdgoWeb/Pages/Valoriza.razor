@@ -1,0 +1,73 @@
+﻿@page "/valoriza"
+
+<DxFormLayout CssClass="MainForm-Medium">
+    <DxFormLayoutGroup Caption="Autorización" ColSpanMd="12">
+
+        <DxFormLayoutItem Caption="Fecha de Práctica:" ColSpanLg="8" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxDateEdit Date="DateTime.Today" />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Prescriptor:" ColSpanLg="10" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Prescriptores" Value="@Prescriptor"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Obra Social:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxSpinEdit Value="0"> </DxSpinEdit>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@ObrasSociales" Value="@ObraSocial"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem ColSpanLg="12" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxButton Text="Consultar prácticas para esta Obra Social" SizeMode="SizeMode.Medium" style="margin: 0 auto;" />
+        </DxFormLayoutItem>
+
+    </DxFormLayoutGroup>
+</DxFormLayout>
+<br />
+
+<DxGrid ShowFilterRow="true" PageSize="20" style="width: 80%; margin: 0 auto;">
+    <Columns>
+        <DxGridDataColumn FieldName="Práctica"
+                          Width="20%" />
+
+        <DxGridDataColumn FieldName="Función"
+                          Width="20%" />
+
+        <DxGridDataColumn FieldName="Descripción"
+                          Width="40%" />
+
+        <DxGridDataColumn FieldName="Importe"
+                          Width="20%" />
+    </Columns>
+
+</DxGrid>
+<br />
+
+@code {
+    //Usamos este parametro para comenzar una nueva fila
+    public bool BeginRow { get; set; } = true;
+    public string Prescriptor { get; set; } = "";
+    public string ObraSocial { get; set; } = "";
+    //Usamos este parametro para establecer numero de filas por pagina
+    public int PageSize { get; set; }
+
+
+    public List<string> Prescriptores { get; set; } = new List<string>()
+    {
+        "Doctor 1",
+        "Doctor 2",
+        "Doctor 3",
+        "Doctor 4",
+        "Doctor 5"
+    };
+
+    public List<string> ObrasSociales { get; set; } = new List<string>()
+    {
+        "Obra Social 1",
+        "Obra Social 2",
+        "Obra Social 3"
+    };
+
+}

@@ -1,0 +1,47 @@
+﻿@page "/beneficios";
+@using BlazorStrap;
+@inject HttpClient Http;
+
+
+<BSContainer Class="row " Container="Container.Fluid" style="justify-content:space-around;">
+
+   <h3 class="titulo">Al asociarse usted podrá contar con:</h3>
+
+    @if(beneficios == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        @foreach(Beneficio item in beneficios)
+        {
+            <BSCard CardType="CardType.Card" style="width: 17rem; padding-inline: .2rem; padding-top: 1rem; margin-bottom: 2rem;  ">
+                <BSCard CardType="CardType.Image" src="@item.img" alt="Img Tick" style="height: 5.5rem; width: 5.5rem; margin: 0 auto;"/>
+                <BSCard CardType="CardType.Body">
+                    <BSCard CardType="CardType.Title">@item.titulo</BSCard>
+                    <BSCard CardType="CardType.Text">
+                        @item.texto
+                    </BSCard>
+                </BSCard>
+            </BSCard>
+        }
+    }
+</BSContainer>
+
+@code {
+    private List<Beneficio>? beneficios;
+
+    protected override async Task OnInitializedAsync()
+    {
+        beneficios = await Http.GetFromJsonAsync<List<Beneficio>>("Data/beneficios.json");
+    }
+
+    public class Beneficio
+    {
+        public string? titulo { get; set; }
+
+        public string? texto { get; set; }
+
+        public string? img { get; set; }
+    }
+}

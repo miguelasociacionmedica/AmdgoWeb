@@ -1,0 +1,120 @@
+﻿@page "/autorizacion";
+
+<DxFormLayout CssClass="MainForm">
+    <DxFormLayoutGroup Caption="Autorización" ColSpanMd="12">
+
+        <DxFormLayoutItem Caption="Fecha:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="10">
+            <DxDateEdit Date="DateTime.Today"/>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Prescriptor:" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Prescriptores" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Documento Afiliado:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Credencial:" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Afiliado:"ColSpanLg="12" ColSpanMd="6" ColSpanSm="10">
+            <DxTextBox />
+        </DxFormLayoutItem>
+    
+        <DxFormLayoutItem Caption="Obra Social:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12" BeginRow="true" >
+            <DxSpinEdit Value="0"> </DxSpinEdit> 
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@ObrasSociales" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Práctica:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12">
+            <DxSpinEdit Value="0"></DxSpinEdit>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Practicas" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Cantidad:" ColSpanLg="3" ColSpanMd="6" ColSpanSm="6" BeginRow="true">
+            <DxSpinEdit Value="1"></DxSpinEdit>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Nota:" ColSpanLg="4" ColSpanMd="6" ColSpanSm="6">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Solicitante:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxSpinEdit Value="0"></DxSpinEdit>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Prescriptores" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Prestador que cobra:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxSpinEdit Value="0"></DxSpinEdit>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="7" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Prescriptores" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Tipo de Orden:" ColSpanLg="3" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Número de Orden:" ColSpanLg="5" ColSpanMd="6" ColSpanSm="12" >
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="" ColSpanLg="4" ColSpanMd="6" ColSpanSm="12">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <div class="MainForm-Container"
+            <DxButton Text="Nueva Práctica" SizeMode="SizeMode.Medium" />
+            <DxButton Text="Grabar práctica" SizeMode="SizeMode.Medium"/>
+        </div>
+
+    </DxFormLayoutGroup>
+
+</DxFormLayout>
+
+@code {
+    //Usamos este parametro para comenzar una nueva fila
+    public bool BeginRow { get; set; } = true;
+
+    string Value { get; set; } = "";
+
+    public List<string> Prescriptores { get; set; } = new List<string>()
+    {
+        "Doctor1",
+        "Doctor2",
+        "Doctor3"
+    };
+
+    public List<string> ObrasSociales { get; set; } = new List<string>()
+    {
+        "Obra Social 1",
+        "Obra Social 2",
+        "Obra Social 3"
+    };
+
+    public List<string> Practicas { get; set; } = new List<string>()
+    {
+        "Practica 1",
+        "Practica 2",
+        "Practica 3"
+    };
+
+    protected override void OnInitialized()
+    {
+        Prescriptores.Add("Doctor4");
+        Prescriptores.Add("Doctor5");
+    }
+
+}

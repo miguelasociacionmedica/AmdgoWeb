@@ -1,0 +1,65 @@
+﻿@page "/prestacionesFacturadas"
+
+
+<DxFormLayout CssClass="MainForm-Small">
+    <DxFormLayoutGroup Caption="Prestaciones Facturadas:" ColSpanMd="12">
+
+        <DxFormLayoutItem Caption="Prescriptor:" ColSpanLg="12" ColSpanMd="6" ColSpanSm="12" >
+            <DxComboBox Data="@Prescriptores" @bind-Value="@Prescriptor" style="margin-left: -8rem;"></DxComboBox>
+        </DxFormLayoutItem>
+
+
+        <DxFormLayoutItem Caption="Incluir Prestaciones Ambulatorias" ColSpanLg="12" ColSpanMd="6" ColSpanSm="6" BeginRow="true">
+            <DxCheckBox CheckType="CheckType.Switch" @bind-Checked="@Ambulatoria" />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Incluir Prestaciones de Internación" ColSpanLg="12" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxCheckBox CheckType="CheckType.Switch" @bind-Checked="@Internacion" />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Formato del Reporte: " ColSpanLg="10" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxComboBox Data="@Formatos" Value="@Formato" style="margin-left: -5rem;"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Año" ColSpanLg="3" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxSpinEdit @bind-Value="@Anio" MaxValue="@Anio" style="margin-left: -10rem;" />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Mes" ColSpanLg="3" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxSpinEdit @bind-Value="@Mes" MinValue="1" MaxValue="12" style="margin-left: -10rem;"/>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem ColSpanLg="12" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxButton Text="Consultar" SizeMode="SizeMode.Medium" style="margin: 0 auto;" />
+        </DxFormLayoutItem>
+    </DxFormLayoutGroup>
+</DxFormLayout>
+
+@code {
+    //Usamos este parametro para comenzar una nueva fila
+    public bool BeginRow { get; set; } = true;
+    public string Prescriptor { get; set; } = "";
+    public string Formato { get; set; } = "";
+    public int Anio { get; set; } = DateTime.Now.Year;
+    public int Mes { get; set; } = DateTime.Now.Month;
+    public bool Ambulatoria { get; set; } = false;
+    public bool Internacion { get; set; } = false;
+
+    public List<string> Formatos { get; set; } = new List<string>()
+    {
+        "PDF",
+        "Excel",
+        "Txt Plano"
+    };
+
+    public List<string> Prescriptores { get; set; } = new List<string>()
+    {
+        "Doctor 1",
+        "Doctor 2",
+        "Doctor 3",
+        "Doctor 4",
+        "Doctor 5"
+    };
+}
+
+

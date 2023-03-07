@@ -1,0 +1,96 @@
+﻿@page "/prestacionesRealizadas"
+
+<DxFormLayout CssClass="MainForm-Small">
+    <DxFormLayoutGroup Caption="Prestaciones Realizadas:" ColSpanMd="12">
+
+        <DxFormLayoutItem Caption="Prescriptor:" ColSpanLg="12" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxComboBox Data="@Prescriptores" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+
+        <DxFormLayoutItem Caption="Búsqueda:" ColSpanLg="10" ColSpanMd="6" ColSpanSm="6" BeginRow="true">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Estado:" ColSpanLg="10" ColSpanMd="6" ColSpanSm="12" BeginRow="true">
+            <DxComboBox Data="@Estados" Value="@Value"></DxComboBox>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Imprimir Detalle de Funciones" ColSpanLg="10" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxCheckBox CheckType="CheckType.Switch" @bind-Checked="@Checked"/>
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem ColSpanLg="12" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxButton Text="Imprimir Selección" SizeMode="SizeMode.Medium" style="margin: 0 auto;" />
+        </DxFormLayoutItem>
+    </DxFormLayoutGroup>
+</DxFormLayout>
+
+<br />
+
+<DxGrid ShowFilterRow="true" PageSize="20" >
+    <Columns>
+        <DxGridDataColumn FieldName="Autorización"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Fecha"
+                          Width="5%" />
+
+        <DxGridDataColumn FieldName="Obra Social"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Descripción"
+                          Width="20%" />
+
+        <DxGridDataColumn FieldName="Cantidad"
+                          Width="5%" />
+
+        <DxGridDataColumn FieldName="Práctica"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Función"
+                          Width="5%" />
+
+        <DxGridDataColumn FieldName="Paciente"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Documento"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Estado"
+                          Width="10%" />
+
+        <DxGridDataColumn FieldName="Imprimir"
+                          Width="5%" />
+    </Columns>
+</DxGrid>
+<br />
+<br />
+
+@code {
+    //Usamos este parametro para comenzar una nueva fila
+    public bool BeginRow { get; set; } = true;
+    //Usamos este parametro para establecer numero de filas por pagina
+    public int PageSize { get; set; }
+
+    public string Value { get; set; } = "";
+
+    public bool Checked { get; set; } = false;
+
+    public List<string> Prescriptores { get; set; } = new List<string>()
+    {
+        "Doctor 1",
+        "Doctor 2",
+        "Doctor 3",
+        "Doctor 4",
+        "Doctor 5"
+    };
+
+    public List<string> Estados { get; set; } = new List<string>()
+    {
+        "Todas",
+        "Anuladas",
+        "Enviadas",
+        "Para Enviar",
+    };
+}

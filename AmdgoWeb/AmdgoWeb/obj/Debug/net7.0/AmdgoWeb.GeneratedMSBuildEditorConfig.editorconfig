@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AmdgoWeb
+build_property.RootNamespace = AmdgoWeb
+build_property.ProjectDir = D:\Proyectos\AmdgoWeb\AmdgoWeb\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Proyectos\AmdgoWeb\AmdgoWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Ambulatorio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW1idWxhdG9yaW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/AsignarComprobante.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpZ25hckNvbXByb2JhbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Autorizacion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b3JpemFjaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/ComisionDirectiva.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taXNpb25EaXJlY3RpdmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/DerechosYObligaciones.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVyZWNob3NZT2JsaWdhY2lvbmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Estatuto.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YXR1dG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/GenerarEnvio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJhckVudmlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Internación.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZXJuYWNpw7NuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/PrestacionesEnAuditoria.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3RhY2lvbmVzRW5BdWRpdG9yaWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/PrestacionesFacturadas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3RhY2lvbmVzRmFjdHVyYWRhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/PrestacionesPresentadas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3RhY2lvbmVzUHJlc2VudGFkYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/PrestacionesRealizadas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3RhY2lvbmVzUmVhbGl6YWRhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/PrestadoresAsociados.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3RhZG9yZXNBc29jaWFkb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Valoriza.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsb3JpemEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Beneficios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVuZWZpY2lvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-bjv0smz8mm
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Historia.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yaWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sg6yysrktq
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-d8fwr9yr5x
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3gmapxlwwh
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rcnl4uon66

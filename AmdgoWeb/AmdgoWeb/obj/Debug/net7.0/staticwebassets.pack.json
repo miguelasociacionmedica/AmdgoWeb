@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\obj\\Debug\\net7.0\\build-gz\\OqNdkLg1.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AmdgoWeb.styles.css",
+      "PackagePath": "staticwebassets\\AmdgoWeb.styles.css"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Archivos\\ComisionDirectiva.pdf",
+      "PackagePath": "staticwebassets\\Archivos\\ComisionDirectiva.pdf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Archivos\\Estatuto.pdf",
+      "PackagePath": "staticwebassets\\Archivos\\Estatuto.pdf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Archivos\\ManualAyudaAmbulatorio.pdf",
+      "PackagePath": "staticwebassets\\Archivos\\ManualAyudaAmbulatorio.pdf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Archivos\\ManualAyudaInternacion.pdf",
+      "PackagePath": "staticwebassets\\Archivos\\ManualAyudaInternacion.pdf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Archivos\\PrestadoresAsociados.pdf",
+      "PackagePath": "staticwebassets\\Archivos\\PrestadoresAsociados.pdf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\EjemploLotes.json",
+      "PackagePath": "staticwebassets\\Data\\EjemploLotes.json"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\beneficios.json",
+      "PackagePath": "staticwebassets\\Data\\beneficios.json"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\carrusel1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\carrusel1.jpg"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\carrusel2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\carrusel2.jpg"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\carrusel3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\carrusel3.jpg"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\historia1.png",
+      "PackagePath": "staticwebassets\\Imagenes\\historia1.png"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\historia2.png",
+      "PackagePath": "staticwebassets\\Imagenes\\historia2.png"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\logo-amdgo.png",
+      "PackagePath": "staticwebassets\\Imagenes\\logo-amdgo.png"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Imagenes\\tick.png",
+      "PackagePath": "staticwebassets\\Imagenes\\tick.png"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AmdgoWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AmdgoWeb.props",
+      "PackagePath": "build\\AmdgoWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AmdgoWeb.props",
+      "PackagePath": "buildMultiTargeting\\AmdgoWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AmdgoWeb.props",
+      "PackagePath": "buildTransitive\\AmdgoWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,18 @@
+﻿
+.titulo {
+    margin-block: 1.3rem;
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitulo {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Rancho', cursive;
+    color: #606060;
+}
+
+.parrafo {
+    font-family: 'Rancho', cursive;
+}

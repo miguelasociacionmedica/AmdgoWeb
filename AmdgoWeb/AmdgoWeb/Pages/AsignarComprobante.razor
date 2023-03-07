@@ -1,0 +1,43 @@
+﻿@page "/asignarComprobante"
+
+<DxFormLayout CssClass="MainForm-Medium">
+    <DxFormLayoutGroup Caption="Asignación de Comprobantes:" ColSpanMd="12">
+
+        <DxFormLayoutItem Caption="Prestador:" ColSpanLg="4" ColSpanMd="6" ColSpanSm="12">
+            <DxSpinEdit Value="0"></DxSpinEdit>
+        </DxFormLayoutItem>
+
+
+        <DxFormLayoutItem Caption="" ColSpanLg="6" ColSpanMd="6" ColSpanSm="12">
+            <DxComboBox Data="@Prescriptores" @bind-Value="@Prescriptor"></DxComboBox>
+        </DxFormLayoutItem>
+
+
+        <DxFormLayoutItem Caption="Buscar Obra Social" ColSpanLg="7" ColSpanMd="6" ColSpanSm="10" BeginRow="true">
+            <DxTextBox />
+        </DxFormLayoutItem>
+
+        <DxFormLayoutItem Caption="Incluir comprobantes B" ColSpanLg="5" ColSpanMd="6" ColSpanSm="10">
+            <DxCheckBox CheckType="CheckType.Switch" @bind-Checked="@ComprobanteB"/>
+        </DxFormLayoutItem>
+
+    </DxFormLayoutGroup>
+</DxFormLayout>
+
+@code {
+    //Usamos este parametro para comenzar una nueva fila
+    public bool BeginRow { get; set; } = true;
+    public bool ComprobanteB { get; set; } = true;
+    public string Prescriptor { get; set; } = "";
+
+
+    public List<string> Prescriptores { get; set; } = new List<string>()
+    {
+        "Doctor 1",
+        "Doctor 2",
+        "Doctor 3",
+        "Doctor 4",
+        "Doctor 5"
+    };
+}
+

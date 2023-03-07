@@ -1,0 +1,77 @@
+﻿@using BlazorStrap;
+
+<BSNavbar class="nav" IsDark="true" IsStickyTop="true">
+    <BSContainer Container="Container.Fluid" >
+        <BSNavbarBrand Class="nav__logo" Url="/" style="font-size: 1.5rem">AMDGO</BSNavbarBrand>
+        <BSCollapse IsInNavbar="true">
+            <Toggler>
+                <BSNavbarToggle />
+            </Toggler>
+            <Content>
+                
+                <BSNav MarginBottom="Margins.Small" Class="ms-auto " MarginEnd="Margins.Large">
+
+                    <BSNavItem IsActive="true" Url="/" >Inicio <i class="fa-solid fa-house"></i></BSNavItem>
+
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Manuales <i class="fa-solid fa-book"></i></BSToggle></Toggler>
+                            <Content>
+                                <BSDropdownItem Url="/ambulatorio">Ambulatorio</BSDropdownItem>
+                                <BSDropdownItem Url="/internacion">Internación</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
+
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown>
+                            <Toggler ><BSToggle IsNavLink="true" style="color: #F0F8FF">Institucional <i class="fa-solid fa-landmark"></i></BSToggle></Toggler>
+                            <Content >
+                                <BSDropdownItem Url="/historia" >Historia</BSDropdownItem>
+                                <BSDropdownItem Url="/beneficios" >Beneficios del Asociado</BSDropdownItem>
+                                <BSDropdownItem Url="/DerechosYObligaciones" >Derechos y Obligaciones del Asociado</BSDropdownItem>
+                                <BSDropdownItem Url="/estatuto" >Estatuto</BSDropdownItem>
+                                <BSDropdownItem Url="/comisionDirectiva" >Comisión Directiva</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
+
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Facturación <i class="fa-solid fa-file-invoice-dollar"></i></BSToggle></Toggler>
+                            <Content>
+                                <BSDropdownItem Url="/autorizacion" >Autorización</BSDropdownItem>
+                                <BSDropdownItem Url="/generarEnvio">Generar Envío</BSDropdownItem>
+                                <BSDropdownItem Url="/prestacionesRealizadas">Prestaciones Realizadas</BSDropdownItem>
+                                <BSDropdownItem Url="/prestacionesPresentadas" >Prestaciones Presentadas</BSDropdownItem>
+                                <BSDropdownItem Url="/prestacionesEnAuditoria" >Prestaciones en Auditoria</BSDropdownItem>
+                                <BSDropdownItem Url="/prestacionesFacturadas" >Prestaciones Facturadas</BSDropdownItem>
+                                <BSDropdownItem Url="/asignarComprobante" >Asignar Comprobante por Obra Social</BSDropdownItem>
+                                <BSDropdownItem Url="/valoriza" >Valoriza</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
+
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Información <i class="fa-solid fa-circle-info"></i></BSToggle></Toggler>
+                            <Content>
+                                <BSDropdownItem Url="/prestadoresAsociados" >Prestadores Asociados</BSDropdownItem>
+                                <BSDropdownItem Url="/">Iatros</BSDropdownItem>
+                                <BSDropdownItem Url="/" >Convenios</BSDropdownItem>
+                                <BSDropdownItem Url="/" >Documentos de interés</BSDropdownItem>
+                                <BSDropdownItem Url="/" >Normas-convenios iapos</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
+
+                    <BSNavItem IsActive="true" Url="/counter" >Liquidación del Prestador</BSNavItem>
+
+                    <BSNavItem IsActive="true" Url="/counter">Contacto <i class="fa-solid fa-address-book"></i></BSNavItem>
+
+                </BSNav>
+            </Content>
+        </BSCollapse>
+       
+    </BSContainer>
+</BSNavbar>

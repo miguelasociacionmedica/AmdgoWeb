@@ -1,0 +1,43 @@
+[
+  {
+    "titulo": "Representación y Poder",
+    "texto": "Forma parte de una amplia oferta médica y sanatorial, la Asociación trabaja en su representación ante diferentes obras sociales, mutuales, prepagas, Art y seguros generales.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Facturación y Cobro",
+    "texto": "La Asociación opera en la actualidad con numerosas prestatarias. Procesa la facturación por las prácticas médico-asistenciales que Ud. realiza (ambulatorio e internación). Gestiona el cobro de sus prestaciones y reclamos por débitos.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Misión de la Asociación",
+    "texto": "Es lograr que el Asociado se encargue de su actividad profesional, asumiendo ésta las tareas administrativas y de representación que el Asociado confiere.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Pagos por cuenta del Asociado",
+    "texto": "Impuestos, tasas, servicios y casas comerciales adheridas.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Colegio Médico Santa Fe",
+    "texto": "Tramites varios. Pago cuota colegiación. Seguro Ayuda Profesional (SAP - Praxis Médica), certificados, préstamos, exámenes, recertificaciones, habilitaciones de consultorios, etc.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Registro Nacional de Prestadores de la S.S.S.",
+    "texto": "Inscripciones y reinscripciones.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Caja Profesionales Arte de Curar",
+    "texto": "Tramites generales, órdenes y autorizaciones de Obra Social, afiliaciones, cancelaciones, jubilación, pensiones, subsidios, préstamos, moratorias, etc.",
+    "img": "/Imagenes/tick.png"
+  },
+  {
+    "titulo": "Sociedades científicas",
+    "texto": "Uso del salón auditorio de la Asociación, para reuniones, cursos, jornadas, congresos, videoconferencias. Eventos y torneos a través de la Comisión de Sociales y Deportivas.",
+    "img": "/Imagenes/tick.png"
+  }
+
+]
