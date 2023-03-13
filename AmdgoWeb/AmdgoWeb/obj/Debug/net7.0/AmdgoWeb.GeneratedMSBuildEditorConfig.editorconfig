@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taXNpb25EaXJlY3RpdmEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Contacto.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -99,6 +103,10 @@ build_metadata.AdditionalFiles.CssScope = b-sg6yysrktq
 [D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d8fwr9yr5x
+
+[D:/Proyectos/AmdgoWeb/AmdgoWeb/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pf8enwxae5
 
 [D:/Proyectos/AmdgoWeb/AmdgoWeb/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

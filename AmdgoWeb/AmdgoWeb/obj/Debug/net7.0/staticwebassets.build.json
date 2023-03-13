@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SBq7GcGLd+TwxSbuLUhBTScJljN7Qca1O7ndMtWMwtA=",
+  "Hash": "LI4AeONw0y/3uW+yVzP8OB7g5eBHqIiCX2P6Rwi51hk=",
   "Source": "AmdgoWeb",
   "BasePath": "/",
   "Mode": "Root",
@@ -10929,6 +10929,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\beneficios.json"
+    },
+    {
+      "Identity": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\Contactos.json",
+      "SourceId": "AmdgoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Data/Contactos.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Contactos.json"
     },
     {
       "Identity": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\EjemploLotes.json",

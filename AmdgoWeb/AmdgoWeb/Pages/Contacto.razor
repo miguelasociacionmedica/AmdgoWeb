@@ -1,0 +1,151 @@
+﻿@page "/contacto";
+@inject HttpClient Http;
+
+<BSContainer Container="Container.Fluid" MarginTop="BlazorStrap.Margins.Large" Class="row " style="margin: 0 auto">
+    <h2 style="margin-bottom:2rem">Contacto</h2>
+    <BSContainer Class=" col-md-7">
+        <iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.5950016642087!2d-59.650902785283606!3d-29.147133797080034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944eba99117efd3d%3A0x6f8c6931aea102c1!2sIriondo+980%2C+S3560DOT+Reconquista%2C+Santa+Fe!5e0!3m2!1ses!2sar!4v1485122428302" style="width: 100%; height: 100%;"></iframe>
+    </BSContainer>
+
+    <BSContainer Class="col-md-5" style="margin-top: 1rem;">
+        <DxFormLayout>
+            <DxFormLayoutGroup Caption="Contacto" ColSpanMd="10" ReadOnly="true">
+                <DxFormLayoutItem ColSpanLg="12" ReadOnly="true"><i class="fa-solid fa-location-dot"></i> Iriondo 980 (S3560DOT) Reconquista, Pcia de Santa Fe</DxFormLayoutItem>
+                <DxFormLayoutItem ColSpanLg="12" ReadOnly="true"><i class="fa-solid fa-phone"></i> (03482)-429427–428344–427151–439028–423828</DxFormLayoutItem>
+                <DxFormLayoutItem ColSpanLg="12" ReadOnly="true"><i class="fa-solid fa-mobile-screen"></i> (03482)-420666</DxFormLayoutItem>
+            </DxFormLayoutGroup>
+
+
+            <DxFormLayoutGroup Caption="Autorizaciones" ColSpanMd="10" Enabled="false">
+                <DxFormLayoutItem ColSpanLg="12">
+                    <p>GERDANNA-VISITAR-ANDAR-OSDOP</p>
+                    <ul style="list-style-type: none; margin-left: -1.3rem; margin-top: -.5rem;">
+                        <li style="margin-bottom: .3rem;"><i class="fa-solid fa-phone"></i> (03482)428344 int 110</li>
+                        <li><i class="fa-solid fa-envelope"></i> marisa.duarte@asociacion-medica.com.ar</li>
+                    </ul>
+                </DxFormLayoutItem>
+
+                <DxFormLayoutItem ColSpanLg="12">
+                    <p>OSPIT - ART</p>
+                    <ul style="list-style-type: none; margin-left: -1.3rem; margin-top: -.5rem;">
+                        <li style="margin-bottom: .3rem;"><i class="fa-solid fa-phone"></i> (03482) 427151 - 428344 int 116</li>
+                        <li><i class="fa-solid fa-envelope"></i> anabela.sosa@asociacion-medica.com.ar</li>
+                    </ul>
+                </DxFormLayoutItem>
+                
+            </DxFormLayoutGroup>
+        </DxFormLayout>
+    </BSContainer>
+</BSContainer>
+
+<br/>
+<br/>
+
+<DxFormLayout CssClass="formulario">
+    <DxFormLayoutTabPages ColSpanLg="12">
+
+        <DxFormLayoutTabPage Caption="Administración">
+            @foreach (Contact c in contactos.Where(w=>w.categoria == "administracion"))
+            {
+                <DxFormLayoutItem  ColSpanMd="6" >
+                    <BSContainer Container="Container.Fluid" MarginTop="BlazorStrap.Margins.Large" Class="row">
+                        <BSContainer Class="col-md-2" style="padding: 5%;">
+                            <i class="fa-regular fa-user fa-2xl" style="color: #5C348C"></i>
+                        </BSContainer>
+                        <BSContainer Class="col-md-10">
+                            <ul class="lista">
+                                <li class="lista-nombre"> @c.nombre</li>
+                                <li class="lista-sector"> <i class="fa-solid fa-phone"></i> @c.sector</li>
+                                <li><i class="fa-solid fa-envelope"></i> @c.email</li>
+                            </ul>
+                        </BSContainer>
+                    </BSContainer>
+                </DxFormLayoutItem>
+            }
+        </DxFormLayoutTabPage>
+
+        <DxFormLayoutTabPage Caption="Facturación">
+            @foreach (Contact c in contactos.Where(w=>w.categoria == "facturacion"))
+            {
+                <DxFormLayoutItem  ColSpanMd="6">
+                    <BSContainer Container="Container.Fluid" MarginTop="BlazorStrap.Margins.Large" Class="row ">
+                        <BSContainer Class="col-md-2" style="padding: 3%;">
+                            <i class="fa-regular fa-user fa-2xl" style="color: #5C348C"></i>
+                        </BSContainer>
+                        <BSContainer Class="col-md-10">
+                            <ul class="lista">
+                                <li class="lista-nombre"> @c.nombre</li>
+                                <li sclass="lista-sector"> <i class="fa-solid fa-phone"></i> @c.sector</li>
+                                <li><i class="fa-solid fa-envelope"></i> @c.email</li>
+                            </ul>
+                        </BSContainer>
+                    </BSContainer>
+                </DxFormLayoutItem>
+            }
+        </DxFormLayoutTabPage>
+
+        <DxFormLayoutTabPage Caption="Cómputos">
+            @foreach (Contact c in contactos.Where(w=>w.categoria == "computos"))
+            {
+                <DxFormLayoutItem  ColSpanMd="6">
+                    <BSContainer Container="Container.Fluid" MarginTop="BlazorStrap.Margins.Large" Class="row ">
+                        <BSContainer Class="col-md-2" style="padding: 3%;">
+                            <i class="fa-regular fa-user fa-2xl" style="color: #5C348C"></i>
+                        </BSContainer>
+                        <BSContainer Class="col-md-10">
+                            <ul class="lista">
+                                <li class="lista-nombre"> @c.nombre</li>
+                                <li class="lista-sector"> <i class="fa-solid fa-phone"></i> @c.sector</li>
+                                <li><i class="fa-solid fa-envelope"></i> @c.email</li>
+                            </ul>
+                        </BSContainer>
+                    </BSContainer>
+                </DxFormLayoutItem>
+            }
+        </DxFormLayoutTabPage>
+
+        <DxFormLayoutTabPage Caption="Auditoría">
+            @foreach (Contact c in contactos.Where(w => w.categoria == "auditoria"))
+            {
+                <DxFormLayoutItem ColSpanMd="6">
+                    <BSContainer Container="Container.Fluid" MarginTop="BlazorStrap.Margins.Large" Class="row ">
+                        <BSContainer Class="col-md-2" style="padding: 3%;">
+                            <i class="fa-regular fa-user fa-2xl" style="color: #5C348C"></i>
+                        </BSContainer>
+                        <BSContainer Class="col-md-10">
+                            <ul class="lista">
+                                <li class="lista-nombre"> @c.nombre</li>
+                                <li class="lista-sector"> <i class="fa-solid fa-phone"></i> @c.sector</li>
+                                <li><i class="fa-solid fa-envelope"></i> @c.email</li>
+                            </ul>
+                        </BSContainer>
+                    </BSContainer>
+                </DxFormLayoutItem>
+            }
+        </DxFormLayoutTabPage>
+
+    </DxFormLayoutTabPages>
+</DxFormLayout>
+
+
+
+@code {
+    private List<Contact> contactos = new List<Contact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        contactos = await Http.GetFromJsonAsync<List<Contact>>("Data/Contactos.json");
+    }
+
+
+    public class Contact
+    {
+        public string? nombre { get; set; }
+
+        public string? sector { get; set; }
+
+        public string? email { get; set; }
+
+        public string? categoria { get; set; }
+    }
+}

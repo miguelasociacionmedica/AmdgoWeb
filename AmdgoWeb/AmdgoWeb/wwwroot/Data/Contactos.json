@@ -1,0 +1,138 @@
+[
+  {
+    "nombre": "Gabriela Escobar",
+    "sector": "Recepción – Interno 101",
+    "email": "gabriela.escobar@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+
+  {
+    "nombre": "Susana Sinchis",
+    "sector": "Pagos y Débitos de Obras Sociales – Interno 103",
+    "email": "susana.sinchis@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+
+  {
+    "nombre": "Stella Maris Colussi",
+    "sector": "Secretaria – Interno 108",
+    "email": "stella.colussi@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+
+  {
+    "nombre": "Veronica Mazuquin",
+    "sector": "Tesorería – Interno 105",
+    "email": "gabriela.escobar@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+  {
+    "nombre": "Graciela Castañeda",
+    "sector": "Pagos y Débitos de Obras Sociales – Interno 103",
+    "email": "graciela.castaneda@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+  {
+    "nombre": "Viviana Mazuquin",
+    "sector": "Arte de Curar - Seguro Automotor – Interno 102",
+    "email": "viviana.mazuquin@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+  {
+    "nombre": "Eliana Zilli",
+    "sector": "Arte de Curar - Seguro Automotor – Interno 102",
+    "email": "eliana.zilli@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+  {
+    "nombre": "Julieta Masin",
+    "sector": "Arte de Curar - Seguro Automotor – Interno 102",
+    "email": "julieta.masin@asociacion-medica.com.ar",
+    "categoria": "administracion"
+  },
+  {
+    "nombre": "Anabela Sosa",
+    "sector": "Facturación Internación – Interno 116",
+    "email": "anabela.sosa@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Daniela Romero",
+    "sector": "Facturación Ambulatorio – Interno 109",
+    "email": "daniela.romero@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Verónica Dominguez",
+    "sector": "Facturación Ambulatorio – Interno 116",
+    "email": "veronica.dominguez@fesalud.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Liliana Vieyra",
+    "sector": "Facturación Ambulatorio – Interno 109",
+    "email": "liliana.vieyra@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Paula Soto",
+    "sector": "Facturación Ambulatorio – Interno 109",
+    "email": "paula.soto@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Cecilia Barre",
+    "sector": "Facturación Ambulatorio – Interno 116",
+    "email": "cecilia.barre@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Claudia Baru",
+    "sector": "Facturación I.A.P.O.S. – Interno 109",
+    "email": "claudia.baru@asociacion-medica.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Mirta Urbansky",
+    "sector": "Facturación Interior (Villa Ocampo) – (03482) 467649",
+    "email": "villaocampo@fesalud.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Lorena Richter",
+    "sector": "Facturación Interior (Villa Ocampo) – (03482) 467649",
+    "email": "villaocampo@fesalud.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Marcela Pezz",
+    "sector": "Facturación Interior (Las Toscas) (03482) 492594",
+    "email": "lastoscas@fesalud.com.ar",
+    "categoria": "facturacion"
+  },
+  {
+    "nombre": "Jorge Ramirez",
+    "sector": "Cómputos – Interno 104",
+    "email": "jorge.ramirez@asociacion-medica.com.ar",
+    "categoria": "computos"
+  },
+  {
+    "nombre": "Walter Cucit",
+    "sector": "Cómputos – Interno 104",
+    "email": "walter.cucit@asociacion-medica.com.ar",
+    "categoria": "computos"
+  },
+  {
+    "nombre": "Alicia Petean",
+    "sector": "Cómputos – Interno 104",
+    "email": "alicia.petean@asociacion-medica.com.ar",
+    "categoria": "computos"
+  },
+
+  {
+    "nombre": "Dr. Daniel Stechina",
+    "sector": "Auditoría Médica – Interno 112",
+    "email": "daniel.stechina@fesalud.com.ar",
+    "categoria": "auditoria"
+  }
+]

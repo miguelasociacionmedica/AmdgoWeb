@@ -989,3 +989,4 @@ D:\Proyectos\AmdgoWeb\AmdgoWeb\obj\Debug\net7.0\build-gz\Bp1alZ2i.gz
 D:\Proyectos\AmdgoWeb\AmdgoWeb\obj\Debug\net7.0\build-gz\6DQsdbof.gz
 D:\Proyectos\AmdgoWeb\AmdgoWeb\obj\Debug\net7.0\build-gz\PALHO0CT.gz
 D:\Proyectos\AmdgoWeb\AmdgoWeb\obj\Debug\net7.0\build-gz\h++aaepF.gz
+D:\Proyectos\AmdgoWeb\AmdgoWeb\obj\Debug\net7.0\scopedcss\Pages\Login.razor.rz.scp.css

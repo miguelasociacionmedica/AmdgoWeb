@@ -1,18 +1,19 @@
 
 .titulo[b-sg6yysrktq] {
     margin-block: 1.3rem;
-    font-family: 'Rancho', cursive;
+    font-family: Raleway, sans-serif;
     font-size: 2rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .subtitulo[b-sg6yysrktq] {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
-    font-family: 'Rancho', cursive;
+    font-family: Raleway, sans-serif;
     color: #606060;
 }
 
 .parrafo[b-sg6yysrktq] {
-    font-family: 'Rancho', cursive;
+    font-family: Raleway, sans-serif;
 }

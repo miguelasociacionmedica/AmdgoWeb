@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Archivos\\PrestadoresAsociados.pdf"
     },
     {
+      "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\Contactos.json",
+      "PackagePath": "staticwebassets\\Data\\Contactos.json"
+    },
+    {
       "Id": "D:\\Proyectos\\AmdgoWeb\\AmdgoWeb\\wwwroot\\Data\\EjemploLotes.json",
       "PackagePath": "staticwebassets\\Data\\EjemploLotes.json"
     },

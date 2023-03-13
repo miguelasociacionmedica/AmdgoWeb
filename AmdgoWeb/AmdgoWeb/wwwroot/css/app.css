@@ -1,4 +1,5 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -129,13 +130,16 @@ a, .btn-link {
 /*Navbar*/
 .nav {
     background-color: #5C348C;
-    height: 4.5rem;
-    font-size: .9rem;
+    font-size: 15px;
+    height: 5rem;
+    font-family: Raleway, sans-serif;
+    font-weight: lighter;
 }
 
 .nav__logo{
-    font-size: 20px;
-    margin-left: 2.2rem;
+    margin-left: 3rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
 }
 
 /*Navbar*/
@@ -195,8 +199,39 @@ a, .btn-link {
     text-align: center
 }
 /*Autorización*/
+
+/*Contacto*/
+.formulario {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lista {
+    list-style-type: none;
+    margin-left: -1.3rem;
+}
+
+.lista-nombre {
+    margin-bottom: .1rem;
+    font-weight: bold;
+}
+
+.lista-sector {
+    margin-bottom: .2rem;
+}
+/*Contacto*/
 @media screen and (max-width: 500px) {
-    .datos__container{
+
+    .nav {
+        height: auto;
+        font-size: .9rem;
+    }
+
+    .nav__logo {
+        margin-left: 1rem;
+    }
+
+        .datos__container{
         border: none;
     }
 
@@ -222,6 +257,10 @@ a, .btn-link {
     }
 
     .MainForm-Medium{
+        width: 100%;
+    }
+
+    .formulario {
         width: 100%;
     }
  }

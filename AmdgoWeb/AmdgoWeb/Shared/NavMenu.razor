@@ -2,7 +2,7 @@
 
 <BSNavbar class="nav" IsDark="true" IsStickyTop="true">
     <BSContainer Container="Container.Fluid" >
-        <BSNavbarBrand Class="nav__logo" Url="/" style="font-size: 1.5rem">AMDGO</BSNavbarBrand>
+        <BSNavbarBrand Class="nav__logo" Url="/" style="font-size: 2rem">AMDGO</BSNavbarBrand>
         <BSCollapse IsInNavbar="true">
             <Toggler>
                 <BSNavbarToggle />
@@ -11,11 +11,10 @@
                 
                 <BSNav MarginBottom="Margins.Small" Class="ms-auto " MarginEnd="Margins.Large">
 
-                    <BSNavItem IsActive="true" Url="/" >Inicio <i class="fa-solid fa-house"></i></BSNavItem>
 
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
-                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Manuales <i class="fa-solid fa-book"></i></BSToggle></Toggler>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF"><i class="fa-solid fa-book" style="margin-right:.5rem;" />Manuales</BSToggle></Toggler>
                             <Content>
                                 <BSDropdownItem Url="/ambulatorio">Ambulatorio</BSDropdownItem>
                                 <BSDropdownItem Url="/internacion">Internación</BSDropdownItem>
@@ -25,7 +24,7 @@
 
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
-                            <Toggler ><BSToggle IsNavLink="true" style="color: #F0F8FF">Institucional <i class="fa-solid fa-landmark"></i></BSToggle></Toggler>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF"><i class="fa-solid fa-landmark" style="margin-right:.5rem;" />Institucional</BSToggle></Toggler>
                             <Content >
                                 <BSDropdownItem Url="/historia" >Historia</BSDropdownItem>
                                 <BSDropdownItem Url="/beneficios" >Beneficios del Asociado</BSDropdownItem>
@@ -38,7 +37,7 @@
 
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
-                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Facturación <i class="fa-solid fa-file-invoice-dollar"></i></BSToggle></Toggler>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF"><i class="fa-solid fa-file-invoice-dollar" style="margin-right:.5rem;" />Facturación</BSToggle></Toggler>
                             <Content>
                                 <BSDropdownItem Url="/autorizacion" >Autorización</BSDropdownItem>
                                 <BSDropdownItem Url="/generarEnvio">Generar Envío</BSDropdownItem>
@@ -54,7 +53,7 @@
 
                     <BSNavItem IsDropdown="true">
                         <BSDropdown>
-                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF">Información <i class="fa-solid fa-circle-info"></i></BSToggle></Toggler>
+                            <Toggler><BSToggle IsNavLink="true" style="color: #F0F8FF"><i class="fa-solid fa-circle-info" style="margin-right:.4rem;"/>Información</BSToggle></Toggler>
                             <Content>
                                 <BSDropdownItem Url="/prestadoresAsociados" >Prestadores Asociados</BSDropdownItem>
                                 <BSDropdownItem Url="/">Iatros</BSDropdownItem>
@@ -65,9 +64,9 @@
                         </BSDropdown>
                     </BSNavItem>
 
-                    <BSNavItem IsActive="true" Url="/counter" >Liquidación del Prestador</BSNavItem>
+                    <BSNavItem IsActive="true" Url="/counter">Liquidación del Prestador</BSNavItem>
 
-                    <BSNavItem IsActive="true" Url="/counter">Contacto <i class="fa-solid fa-address-book"></i></BSNavItem>
+                    <BSNavItem IsActive="true" Url="/contacto"><i class="fa-solid fa-address-book" style="margin-right:.5rem;" />Contacto</BSNavItem>
 
                 </BSNav>
             </Content>
